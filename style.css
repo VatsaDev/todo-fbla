@@ -1,3 +1,55 @@
-nav {
-    width: 100vh
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: #000;
+    box-sizing: border-box;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    background: url("dwg.png");
+    background-size: cover;
 }
+
+main {
+    padding: 10px;
+}
+
+h1 {
+    color: #fff;
+}
+
+#h-main {
+    font-size: 80px;
+}
+
+#name {
+    float: left;
+}
+
+a, p{
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #cac4c4;
+  }
