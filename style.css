@@ -6,7 +6,7 @@ body {
     font-family: "Ubuntu Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    background: url("dwg.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("dwg.png");
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@ h1 {
 }
 
 #h-main {
-    font-size: 80px;
+    font-size: 12vw;
 }
 
 #name {
