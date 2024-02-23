@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 body {
-    background-color: #000;
+    background-color: #fff;
+    color: #000;
     box-sizing: border-box;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: "Nunito Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("dwg.png");
     background-size: cover;
     padding: 0;
     margin: 0;
@@ -16,20 +16,8 @@ main {
     padding: 10px;
 }
 
-h1 {
-    color: #fff;
-}
-
-#h-main {
-    font-size: 12vw;
-}
-
 #name {
     float: left;
-}
-
-a, p{
-    color: #fff;
 }
 
 ol {
@@ -38,11 +26,13 @@ ol {
     margin-top: -20px;
     padding: 0;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #000;
+    color: #fff;
   }
   
-li {
+ol li {
     float: right;
+    color: #fff;
   }
   
 li a {
@@ -51,8 +41,9 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: #fff;
   }
   
 li a:hover {
     background-color: #cac4c4;
-  }
+}
