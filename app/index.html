@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List - Cosmic Peace</title>
+
+    <link rel="stylesheet" href="kanban.css" />
+    <script src="drag.js" defer></script>
+    <script src="todo.js" defer></script>
+  </head>
+  <body>
+    <div class="board">
+      <form id="todo-form">
+        <input type="text" placeholder="New TODO..." id="todo-input" />
+        <button type="submit">Add +</button>
+      </form>
+
+      <div class="lanes">
+        <div class="row-lane" id="todo-lane">
+          <h3 class="heading">TODO</h3>
+
+          <p class="task" draggable="true">Take the fish for a walk</p>
+          <p class="task" draggable="true">Feed the lawn</p>
+          <p class="task" draggable="true">Mow the groceries</p>
+          <p class="task" draggable="true">Dont ask questions</p>
+        </div>
+
+        <div class="row-lane">
+          <h3 class="heading">Working On</h3>
+
+          <p class="task" draggable="true">Binge 80 hours of Game of Thrones</p>
+        </div>
+
+        <div class="row-lane">
+          <h3 class="heading">Done</h3>
+
+          <p class="task" draggable="true">
+            Watch video of a man raising a grocery store lobster as a pet
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
