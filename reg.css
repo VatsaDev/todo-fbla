@@ -47,3 +47,10 @@ li a {
 li a:hover {
     background-color: #cac4c4;
 }
+
+.bubble {
+  margin: 10px;
+  padding: 10px;
+  border: 2px #000 solid;
+  width: 200px;
+}
