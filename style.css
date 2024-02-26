@@ -38,6 +38,7 @@ ol {
     padding: 0;
     overflow: hidden;
     background-color: #fff;
+    font-size: 25px;
   }
   
 li {
@@ -55,3 +56,29 @@ li a {
 li a:hover {
     background-color: #cac4c4;
   }
+
+#bb {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    background: black;
+    color: white;
+}
+
+#bb:hover {
+    color: black;
+    background: white;
+}
+
+#bw {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    background: white;
+}
+
+#bw:hover {
+    background: black;
+    color: white;
+}
