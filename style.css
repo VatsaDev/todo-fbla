@@ -63,11 +63,14 @@ li a:hover {
     margin: 10px;
     background: black;
     color: white;
+    border: 3px #fff solid;
+    text-decoration: none;
 }
 
 #bb:hover {
     color: black;
     background: white;
+    border: 3px #000 solid;
 }
 
 #bw {
@@ -76,9 +79,12 @@ li a:hover {
     margin: 10px;
     color: black;
     background: white;
+    border: 3px #000 solid;
+    text-decoration: none;
 }
 
 #bw:hover {
     background: black;
     color: white;
+    border: 3px #fff solid;
 }
