@@ -22,7 +22,7 @@ droppables.forEach((zone) => {
     } else {
       zone.insertBefore(curTask, bottomTask);
     }
-  });
+  });  
 });
 
 const insertAboveTask = (zone, mouseY) => {
