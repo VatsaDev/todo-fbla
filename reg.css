@@ -48,9 +48,50 @@ li a:hover {
     background-color: #cac4c4;
 }
 
+.listings {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.heading {
+  padding-bottom: 50px;
+}
+
 .bubble {
   margin: 10px;
+  font-weight: 500;
   padding: 10px;
-  border: 2px #000 solid;
-  width: 200px;
+  border: 5px #000 solid;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 30%;
+  margin: 0 5px 10px 5px;
+
+  @media (max-width: 768px) {
+    width: 46.67%;
+  }
+  @media (max-width: 576px) {
+    width: 100%;
+    margin: 10px auto;
+  }
 }
+
+.jobs {
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  max-width: max-content;
+  height: auto;
+  padding: 100px;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  padding-top: 200px;
+  padding-bottom: 200px;
+} 
