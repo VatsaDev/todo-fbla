@@ -16,7 +16,7 @@
         (function () {
             // https://dashboard.emailjs.com/admin/account
             emailjs.init({
-                publicKey: "dBZJqzZPUfO4XgDCk",
+                publicKey: "PAgZVGzqrqzpqEm8G",
             });
         })();
     </script>
@@ -36,7 +36,7 @@
             <p>TODO needs you at these critical positions</p>
         </div>
 
-        <div class="benefits">
+        <div class="benefits" style="padding: 50px; padding-left: 100px;">
             <h1>Why Us?</h1>
             <h2>Health and Wellness</h2>
             <ul>
@@ -177,8 +177,8 @@
                 </select><br><br>
                 Phone Number: <input type="text" class="boxes" id="num" placeholder="+1"><br><br>
                 Current Location/Company: <input type="text" class="boxes" id="Current Location/Company" placeholder="Stanford/Deepmind"><br><br>
-                Other Information we may need to know:<br> <input type="textarea" class="boxes" id="other" placeholder="Conditions/Legal/Thoughts/etc" style="width: 200px; height: 75px;"><br><br>
-                <input class="boxes" type="submit" value="Apply">
+                Other Information we may need to know:<br><br><input type="textarea" class="boxes" id="other" placeholder="Conditions/Legal/Thoughts/etc" style="width: 200px; height: 75px;"><br><br>
+                <input class="boxes" style="border: none; padding: 10px;" type="submit" value="Apply">
             </form>
         </div>
     </main>
@@ -188,11 +188,11 @@
             document.getElementById('contact-form').addEventListener('submit', function (event) {
                 event.preventDefault();
                 // these IDs from the previous steps
-                emailjs.sendForm('service_3yqrjde', 'template_hs2yb87', this)
+                emailjs.sendForm('service_iimzily', 'template_p4inwcx', this)
                     .then(() => {
-                        alert('SUCCESS!');
+                        alert('Email Sent');
                     }, (error) => {
-                        alert('FAILED...', error);
+                        alert('Error, Couldnt send email', error);
                         console.log(error)
                     });
             });
