@@ -28,6 +28,7 @@ ol {
     overflow: hidden;
     background-color: #000;
     color: #fff;
+    font-size: 25px;
   }
   
 ol li {
