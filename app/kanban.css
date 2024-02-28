@@ -134,6 +134,7 @@ ol {
 ol li {
     float: right;
     color: #fff;
+    font-size: 25px;
   }
   
 li a {
